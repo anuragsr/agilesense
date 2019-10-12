@@ -1,0 +1,73 @@
+/* TRAINING PAGE CSS */
+.s-main{
+  background: url(../img/tr-bg.png) no-repeat center;
+  background-size: cover;
+  background-position: 0% 20%; 
+}
+
+.s-main h1{
+	margin-top: 4vw;
+}
+
+.s-tr {
+	text-align: left;
+}
+
+.s-tr h1{
+  font-size: 2.5vw;
+  margin-bottom: 0;
+}
+
+.s-tr h2{
+	font-weight: bold;
+}
+
+.s-tr h3{
+  margin: 1.5vw 0;
+  font-size: 1vw;
+}
+
+.s-tr .table thead th{
+	vertical-align: top;
+}
+
+.s-tr .ctn-img1{
+  background: url(../img/tr1.jpg) no-repeat center;
+  background-size: cover;
+  background-position: 0% 20%;
+  height: 17vw;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 1px rgba(0,0,0,.4); 
+}
+
+.s-tr .ext-link{
+  text-decoration: none;
+}
+
+.s-tr .ext-link:hover .ctn-ques{
+  box-shadow: 0px 0px 10px 1px rgba(0,0,0,.4);
+  color: #17acb3;
+  background: #fff;
+}
+
+.s-tr .ctn-ques{
+	margin-top: 2vw;
+  color: #fff;
+  background: #17acb3;
+  padding: 1vw 1.5vw;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 1px rgba(0,0,0,.2);  
+  border: 1px solid #17acb3;
+  transition: all .2s;
+}
+
+.s-tr .ctn-ques h2{
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.s-tr .ctn-ques img{
+  height: 3vw;
+  margin-right: 1vw;
+}

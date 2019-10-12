@@ -1,0 +1,46 @@
+@media (max-width:1023px)  {	
+	/* big landscape tablets, laptops, and desktops */
+	.s-pl h1{
+	  font-size: 4.5vw;
+	  margin-bottom: 0;
+	}
+	.s-pl h3{
+	  margin: 1.5vw 0;
+	  font-size: 2vw;
+	}
+	.s-pl .ctn-ques{	
+		padding: 2vw;
+	}
+	.s-pl .ctn-ques h2{
+		font-size: 3vw;
+	}
+}
+
+@media (max-width:767px)  {	
+	/* smartphones, Android phones, landscape iPhone */
+	.s-pl h1{
+	  font-size: 6.5vw;
+	}
+	.s-pl h2{
+	  font-size: 6vw;
+    padding: 0 2vw;
+    margin-top: 8vw;
+	}
+	.s-pl h3{
+    margin-top: 5vw;
+	  font-size: 4.5vw;
+    padding: 0 2vw;
+	}
+	.s-pl .ctn-ques{
+		margin-top: 5vw;		
+		margin-bottom: 5vw;		
+	}
+	.s-pl .ctn-ques h2{
+	  font-size: 6.5vw;
+		margin-top: 0;
+	}
+}
+
+@media (max-width:480px)  {	
+	/* smallest phone */
+}

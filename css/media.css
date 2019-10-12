@@ -1,0 +1,235 @@
+@media (max-width:1023px)  {	
+	/* big landscape tablets, laptops, and desktops */
+	.s-about h2 {
+    font-size: 3vw;
+	}
+	.s-about h4{
+    font-size: 2vw;
+	}
+	.s-about .ctn-about-txt h4 {
+    font-size: 2vw;
+	}
+	.s-services h1{
+	  font-size: 4.5vw;
+	  margin-bottom: 0;
+	}
+	.s-services h3{
+	  margin: 1.5vw 0;
+	  font-size: 2vw;
+	}
+	.s-services .col-md-6{		
+    margin-bottom: 5vw;
+	}
+	.s-services .ctn-ser{
+  	margin: 1.5vw;
+	}
+	.s-services .ctn-ser .card-img-top{
+		height: 200px;	
+	}
+	.s-testi{
+	  padding-left: 2vw;
+	  padding-right: 2vw;
+	}	
+	.s-testi .ctn-testi h4 {
+		font-size: 2vw;
+	}
+	.s-testi .ctn-testi h5 {
+		font-size: 1.5vw;
+	}
+	.s-dis .ctn-ser{
+		width: 25vw;
+	}
+	.s-dis .ctn-ser .card-img-top{
+		height: 150px;
+	}
+	.s-dis h1{
+	  font-size: 4.5vw;
+	  margin-bottom: 0;
+	}
+	.s-dis h3{
+	  margin: 1.5vw 0;
+	  font-size: 2vw;
+	}	
+	.s-survey h1{
+	  font-size: 4.5vw;
+	  margin-bottom: 0;
+	}
+	.s-survey h3{
+	  font-size: 2vw;
+	  margin: 1.5vw 0;
+	  margin-bottom: 5vw;
+	}
+	.s-survey .ctn-ques h2{
+		font-size: 3vw;
+		padding: 2vw;
+	}
+	.s-contact h1{
+	  font-size: 4.5vw;
+	  margin-bottom: 0;
+	}
+	.s-contact h3{
+	  font-size: 2vw;
+	  margin: 1.5vw 0;
+	  margin-bottom: 5vw;
+	}
+	.s-contact .ctn-contact-info{
+		font-size: 2vw;
+    padding-left: 5vw;
+	}
+	.s-contact .ctn-contact-item i{
+		font-size: 2.5vw;
+	}
+	.s-contact .ctn-contact-item img{
+		height: 5.5vw;
+	}
+	.s-contact .ctn-map{
+		margin-top: 5vw;
+		margin-bottom: 5vw;
+		height: 40vw;
+	}
+	.sm ul {
+	  font-size: 2.5vw;
+	}
+}
+
+@media (max-width:767px)  {	
+	/* smartphones, Android phones, landscape iPhone */
+	.s-about h2 {
+    font-size: 6vw;
+	}
+	.s-about h4{
+    font-size: 4vw;
+    margin-bottom: 5vw;
+	}
+	.s-about .ctn-about-txt{		
+    padding: 4vw;
+	}
+	.s-about .ctn-about-txt h4 {
+    font-size: 4vw;
+	}
+	.s-services{
+		padding-top: 15vw;
+	}
+	.s-services h1{
+	  font-size: 6.5vw;
+	}
+	.s-services h3{
+	  font-size: 4vw;
+	}
+	.s-services .ctn-ser .card-img-top{
+		height: 210px;
+	}
+	.s-testi .row-testi {
+		padding: 6vw 0;
+	}
+	.s-testi .row-testi h3{
+		font-size: 6vw;
+	}
+	.s-testi .row-testi .col-md-4{
+	  border-right: none;
+	  border-bottom: 2px dashed #fff;
+	}
+	.s-testi .ctn-testi h4 {
+		font-size: 4vw;
+	}
+	.s-testi .ctn-testi h5 {
+		font-size: 3vw;
+	}
+	.s-dis .row{
+    flex-direction: column;
+    padding: 0 1.5vw;    
+	}
+	.s-dis .ctn-ser{
+    width: 100%;
+    margin: 0;
+    margin-bottom: 5vw;
+	}
+	.s-dis .ctn-ser .card-img-top{
+		height: 170px;
+	}
+	.s-dis .ctn-ser .card-mid{
+	  top: 0;
+	}
+	.s-dis h1{
+	  font-size: 6.5vw;
+	}
+	.s-dis h3{
+	  font-size: 4vw;
+	}	
+	.s-survey{
+		padding: 0 2vw;
+	}
+	.s-survey h1{
+	  font-size: 6.5vw;
+	}
+	.s-survey h3{
+	  font-size: 4vw;
+	  margin: 3.5vw 0;
+	  margin-bottom: 5vw;
+	}
+	.s-survey .ctn-ques h2{
+		font-size: 5vw;
+		padding: 2vw;
+	}
+	.s-survey .ctn-ques img{
+	  height: 8vw;
+	}
+	.s-contact .col-contact{
+		padding: 0;
+	}
+	.s-contact h1{
+	  font-size: 6.5vw;
+	  margin-top: 5vw;
+	}
+	.s-contact h3{
+	  font-size: 4vw;
+	  margin: 1.5vw 0;
+	  margin-bottom: 5vw;
+	}
+	.s-contact .ctn-contact-item{
+		margin-bottom: 4vw;
+	}
+	.s-contact .ctn-contact-info{
+		font-size: 4vw;
+	}
+	.s-contact .ctn-contact-item i{
+		font-size: 4.5vw;	
+		margin-right: 3vw;	
+	}
+	.s-contact .ctn-contact-item:nth-of-type(2) i{
+	  margin-left: .15vw;
+	  margin-right: 4vw;
+	}
+	.s-contact .ctn-contact-item:nth-of-type(3) i{
+    margin-left: .75vw;
+    margin-right: 5vw;
+	}
+	.s-contact .ctn-contact-item img{
+		height: 11vw;
+	}
+	.s-contact .col-contact button{
+		margin-top: 5vw;
+	}
+	.s-contact .g-recaptcha{
+		width: 100%;
+		display: flex;
+    justify-content: center;
+	}
+	.s-contact .form-group.row{
+		margin-bottom: 0;
+	}
+	.s-contact .form-group.row .col-md-6, 
+	.s-contact .form-group.row .col-md-12{
+		margin-bottom: 1rem;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.sm ul {
+	  font-size: 3.75vw;
+	}
+}
+
+@media (max-width:480px)  {	
+	/* smallest phone */
+}

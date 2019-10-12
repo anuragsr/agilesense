@@ -1,0 +1,140 @@
+<div class="ctn-secondary">
+  <div class="bc-bg">
+    <div class="container">
+      <div class="bc-el bc-hm">
+        <a href="../../"><i class="fa fa-home"></i></a>
+      </div>
+      <div class="bc-el"><i class="fa fa-caret-right"></i></div>
+      <div class="bc-el bc-text">
+        <a href="../../#services">  
+          Services
+        </a> 
+      </div>
+      <div class="bc-el"><i class="fa fa-caret-right"></i></div>
+      <div class="bc-el bc-text">
+        <a ui-sref="home">
+          Careers
+        </a>  
+      </div>
+      <div class="bc-el"><i class="fa fa-caret-right"></i></div>
+      <div class="bc-el bc-text">Admin Home</div>
+    </div>
+  </div>
+</div>
+    
+<div class="container s-ctn s-admin">
+  <div class="row text-right justify-content-center">
+    <div class="col-md-12">
+      <a ui-sref="adminLogin">Logout</a>
+    </div>
+  </div>
+  <h1 class="text-center"><b>WELCOME, {{user.u_name}}</b></h1>
+  <div class="row">
+    <div class="col-lg-7 col-md-12 col-left ad">
+      <h3>List of Current Jobs</h3>
+      <table ng-table="tableParams" class="table" show-filter="true">
+        <tr ng-repeat="item in $data track by $index">
+          <td title="'Sr.'">{{ ((tableParams.page() - 1) * tableParams.count()) + $index + 1}}</td>
+          <td title="'Job Title'" filter="titleFilter" sortable="'j_title'">
+            {{item.j_title}}
+          </td>
+          <!-- 
+          <td title="'Job Type'">
+            {{item.j_type}}
+          </td> -->
+          <td title="'Job Code'">
+            <a ui-sref="job({user: user, jobId: item.j_id})">{{item.j_code}}</a>
+          </td>
+          <td title="'Action'">
+            <button ng-click="deleteJob(item.j_id)" class="btn btn-sm btn-danger">Delete</button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="col-lg-5 col-md-12 ad">
+      <h3>Add Job</h3>
+      <form name="aeForm" ng-submit="action()">
+        <div class="form-group row">        
+          <div class="col-md-12">
+            <label>Job Code</label>
+            <input type="text" ng-model="currJob.j_code" class="form-control" placeholder="Job Code" required>
+          </div>
+        </div>
+        <div class="form-group row">
+          <div class="col-md-6">
+            <label>Job Title</label>
+            <input type="text" ng-model="currJob.j_title" class="form-control" placeholder="Job Title" required>
+          </div>       
+          <div class="col-md-6">
+            <label>Location</label>
+            <input type="text" ng-model="currJob.j_loc" class="form-control" placeholder="Enter name" required>      
+          </div>  
+        </div>        
+        <div class="form-group row">        
+          <div class="col-md-12">
+            <label>Job Description</label>
+            <textarea rows="5" ng-model="currJob.j_desc" class="form-control" placeholder="Description" required>
+            </textarea>
+          </div>
+        </div>
+        <div class="form-group row"> 
+          <div class="col-md-12">
+            <label>Type</label>
+            <div>              
+              <div class="custom-control custom-radio custom-control-inline">
+                <input ng-model="currJob.j_type" type="radio" id="r1" value="Permanent" name="r" class="custom-control-input" required>
+                <label class="custom-control-label" for="r1">Permanent</label>
+              </div>
+              <div class="custom-control custom-radio custom-control-inline">
+                <input ng-model="currJob.j_type" type="radio" id="r2" value="Contract" name="r" class="custom-control-input" required>
+                <label class="custom-control-label" for="r2">Contract</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8"></div>
+          <div class="col-md-4">
+            <button ng-disabled="aeForm.$invalid" type="submit" class="btn btn-lg btn-block btn-dark">Submit</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</div>
+
+<div class="ctn-footer text-center">
+  <img src="../../img/logo-lg.png" class="logo-lg"/>
+  <div>
+    <a href="../../#contact">Contact Us</a>
+    <a href="../../about">About Us</a>
+    <a href="../../sitemap.html">Sitemap</a>
+  </div>        
+</div>
+
+<div class="modal fade" id="messageModal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Message from Webpage</h5>        
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">        
+        {{ res.message }}
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div ng-show="showLoader" class="loader-ol h-100 w-100">
+  <div class="loader-in">
+    <div class="loader"></div><br/>
+    <h3 ng-show="progress">Please wait.. {{progress}}%</h3>
+  </div>
+</div>

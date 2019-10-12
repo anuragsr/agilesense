@@ -1,0 +1,82 @@
+<div class="ctn-secondary">
+  <div class="bc-bg">
+    <div class="container">
+      <div class="bc-el bc-hm">
+        <a href="../../"><i class="fa fa-home"></i></a>
+      </div>
+      <div class="bc-el"><i class="fa fa-caret-right"></i></div>
+      <div class="bc-el bc-text">
+        <a href="../../#services">  
+          Services
+        </a>  
+      </div>
+      <div class="bc-el"><i class="fa fa-caret-right"></i></div>
+      <div class="bc-el bc-text">
+        <a ui-sref="home">
+          Careers
+        </a>  
+      </div>
+      <div class="bc-el"><i class="fa fa-caret-right"></i></div>
+      <div class="bc-el bc-text">Login</div>
+    </div>
+  </div>
+</div>
+    
+<div class="container s-ctn s-login">
+  <div class="row">
+    <div class="login-ctn">
+      <h1 class="text-center mb-4"><b>LOGIN FORM</b></h1>  
+      <form name="lf" ng-submit="login()">
+        <div class="form-group">
+          <label>Email address</label>
+          <input type="email" ng-model="obj.e" class="form-control" placeholder="Enter email" required>
+        </div>
+        <div class="form-group">
+          <label>Password</label>
+          <input type="password" ng-model="obj.p" class="form-control" placeholder="Password" required>
+        </div>
+        <button ng-disabled="lf.$invalid" type="submit" class="btn btn-block btn-lg btn-dark">Login</button>
+        <div class="form-group mt-2 text-center">
+          <a ui-sref="signup">            
+            Not registered? Sign Up here
+          </a> 
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="ctn-footer text-center">
+  <img src="../../img/logo-lg.png" class="logo-lg"/>
+  <div>
+    <a href="../../#contact">Contact Us</a>
+    <a href="../../about">About Us</a>
+    <a href="../../sitemap.html">Sitemap</a>
+  </div>        
+</div>
+
+<div class="modal fade" id="messageModal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Message from Webpage</h5>        
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">        
+        {{ res.message }}
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" ng-click="closeModal()">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div ng-show="showLoader" class="loader-ol h-100 w-100">
+  <div class="loader-in">
+    <div class="loader"></div><br/>
+    <h3 ng-show="progress">Please wait.. {{progress}}%</h3>
+  </div>
+</div>

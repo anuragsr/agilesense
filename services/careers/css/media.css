@@ -1,0 +1,124 @@
+@media (max-width:1023px)  {	
+	/* big landscape tablets, laptops, and desktops */
+
+	/* Home Page */
+	.s-title h1{
+	  font-size: 4.5vw;
+	  margin-bottom: 0;
+	}
+	.s-title h3{
+	  margin: 1.5vw 0;
+	  font-size: 2vw;
+	}
+	.s-title .ctn-ser{
+		margin-bottom: 6.5vw;
+    width: 40vw;
+	}
+
+	/* Login Page , Signup Page*/
+	.s-login .row .login-ctn, .s-signup .row .signup-ctn{
+		width: 50%;
+	}
+	.s-login .row .login-ctn h1, .s-signup .row .signup-ctn h1{
+		font-size: 4.5vw;
+	}
+
+	/*User Home*/
+	.s-user .col-left{
+		border: none;
+		margin-bottom: 5vw;
+	}
+
+  /*Jobs Pages*/
+	.s-jobs h1, .s-jd h1{
+	  font-size: 4.5vw;
+	}
+
+  /*Admin page*/
+	.s-admin h1{
+	  font-size: 4.5vw;
+	}
+	.s-admin .col-left{
+		border: none;
+		margin-bottom: 5vw;
+	}
+}
+
+@media (max-width:767px)  {	
+	/* smartphones, Android phones, landscape iPhone */
+	/* Home Page */
+	.s-title h1{
+	  font-size: 6.5vw;
+	}
+	.s-title h3{
+	  font-size: 4vw;
+	}
+	.s-title .ctn-ser{
+    width: 100%;
+  }
+
+	/* Login Page */
+	.s-login .row .login-ctn, .s-signup .row .signup-ctn{
+		width: 95%;
+	}
+	.s-login .row .login-ctn h1, .s-signup .row .signup-ctn h1{
+		font-size: 4.5vw;
+	}
+
+	/*User Home*/
+
+	.s-user{
+		padding-top: 10vw;
+	}
+	.s-user h1{
+		font-size: 6.5vw;
+		margin-top: 5vw;
+		margin-bottom: 5vw;
+	}
+	.s-user h3{
+		font-size: 5vw;
+		margin-bottom: 5vw;
+	}
+	.s-user .col-left{
+		margin-bottom: 15vw;	
+	}
+	.s-user .form-group.row{
+		margin-bottom: 0;
+	}
+	.s-user .form-group.row .col-md-6, 
+	.s-user .form-group.row .col-md-12{
+		margin-bottom: 1rem;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+  /*Jobs Pages*/
+	.s-jobs h1, .s-jd h1{
+	  font-size: 6.5vw;
+		margin-bottom: 5vw;
+	}
+
+  /*Admin page*/
+	.s-admin h1{
+	  font-size: 6.5vw;
+		margin-top: 5vw;
+		margin-bottom: 5vw;
+	}
+	.s-admin .col-left{
+		margin-bottom: 15vw;
+	}
+	.s-admin h3{
+		font-size: 5vw;
+		padding-left:  1vw;
+		margin-bottom: 5vw;
+	}
+	.s-admin .row .col-lg-5{
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+}
+
+@media (max-width:480px)  {	
+	/* smallest phone */
+}

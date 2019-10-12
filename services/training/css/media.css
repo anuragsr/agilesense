@@ -1,0 +1,49 @@
+@media (max-width:1023px)  {	
+	/* big landscape tablets, laptops, and desktops */
+	.s-tr h1{
+	  font-size: 4.5vw;
+	  margin-bottom: 0;
+	}
+	.s-tr h3{
+	  margin: 1.5vw 0;
+	  font-size: 2vw;
+	}
+	.s-tr .ctn-ques{	
+		padding: 2vw;
+	}
+	.s-tr .ctn-ques h2{
+		font-size: 3vw;
+	}
+	.s-tr .ctn-img1{	
+		height: 40vw;
+	}
+}
+
+@media (max-width:767px)  {	
+	/* smartphones, Android phones, landscape iPhone */
+	.s-tr h1{
+	  font-size: 6.5vw;
+	}
+	.s-tr h2{
+	  font-size: 6vw;
+    padding: 0 2vw;
+    margin-top: 8vw;
+	}
+	.s-tr h3{
+    margin-top: 5vw;
+	  font-size: 4.5vw;
+    padding: 0 2vw;
+	}
+	.s-tr .ctn-ques{
+		margin-top: 5vw;		
+		margin-bottom: 5vw;		
+	}
+	.s-tr .ctn-ques h2{
+	  font-size: 6.5vw;
+		margin-top: 0;
+	}
+}
+
+@media (max-width:480px)  {	
+	/* smallest phone */
+}

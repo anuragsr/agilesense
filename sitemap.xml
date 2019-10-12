@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+            
+<url>
+  <loc>http://www.agilesense.co.za/</loc>
+  <lastmod>2019-02-06T15:57:17+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://www.agilesense.co.za/about/</loc>
+  <lastmod>2019-02-06T15:57:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.agilesense.co.za/aac/</loc>
+  <lastmod>2019-01-19T07:30:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.agilesense.co.za/services/careers/</loc>
+  <lastmod>2019-01-31T07:44:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.agilesense.co.za/services/transformation/</loc>
+  <lastmod>2019-01-31T16:11:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.agilesense.co.za/services/training/</loc>
+  <lastmod>2019-01-31T16:11:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.agilesense.co.za/services/placement/</loc>
+  <lastmod>2019-01-31T16:11:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.agilesense.co.za/discussion/news/</loc>
+  <lastmod>2019-02-06T16:02:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.agilesense.co.za/discussion/blog/</loc>
+  <lastmod>2019-02-06T16:02:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.agilesense.co.za/discussion/wiki/index.php/Main_Page</loc>
+  <lastmod>2019-01-31T15:57:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.agilesense.co.za/discussion/news/2019/01/31/agile-sense-website-launch/</loc>
+  <lastmod>2019-02-06T16:02:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.agilesense.co.za/discussion/news/author/agile_usr/</loc>
+  <lastmod>2019-02-06T16:02:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.agilesense.co.za/discussion/news/2019/01/31/tool-launch/</loc>
+  <lastmod>2019-02-06T16:02:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.agilesense.co.za/discussion/blog/2019/01/31/scrum-master-role-and-capacity/</loc>
+  <lastmod>2019-02-06T16:02:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.agilesense.co.za/discussion/blog/author/agile_usr/</loc>
+  <lastmod>2019-02-06T16:02:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.agilesense.co.za/discussion/blog/2019/01/30/secret-sauce/</loc>
+  <lastmod>2019-02-06T16:02:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>

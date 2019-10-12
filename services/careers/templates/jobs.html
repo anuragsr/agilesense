@@ -1,0 +1,64 @@
+<div class="ctn-secondary">
+  <div class="bc-bg">
+    <div class="container">
+      <div class="bc-el bc-hm">
+        <a href="../../"><i class="fa fa-home"></i></a>
+      </div>
+      <div class="bc-el"><i class="fa fa-caret-right"></i></div>
+      <div class="bc-el bc-text">
+        <a href="../../#services">  
+          Services
+        </a> 
+      </div>
+      <div class="bc-el"><i class="fa fa-caret-right"></i></div>
+      <div class="bc-el bc-text">
+        <a ui-sref="home">
+          Careers
+        </a>  
+      </div>
+      <div class="bc-el"><i class="fa fa-caret-right"></i></div>
+      <div class="bc-el bc-text">Job Search</div>
+    </div>
+  </div>
+</div>
+    
+<div class="container s-ctn s-jobs">
+  <h1 class="text-center"><b>JOB LISTING</b></h1>
+  <div class="row">
+    <div class="col-md-12">
+      <table ng-table="tableParams" class="table table-responsive" show-filter="true">
+        <tr ng-repeat="item in $data track by $index">
+          <td title="'Sr.'">{{ ((tableParams.page() - 1) * tableParams.count()) + $index + 1}}</td>
+          <td title="'Job Title'" filter="titleFilter" sortable="'j_title'">
+            {{item.j_title}}
+          </td>          
+          <td title="'Job Location'" filter="locFilter" sortable="'j_loc'">
+            {{item.j_loc}}
+          </td>
+          <td title="'Job Type'" filter="typeFilter" filter-data="filterTypes" sortable="'j_type'">
+            {{item.j_type}}
+          </td>
+          <td title="'Job Code'">
+            <a ui-sref="job({user: user, jobId: item.j_id})">{{item.j_code}}</a>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div class="ctn-footer text-center">
+  <img src="../../img/logo-lg.png" class="logo-lg"/>
+  <div>
+    <a href="../../#contact">Contact Us</a>
+    <a href="../../about">About Us</a>
+    <a href="../../sitemap.html">Sitemap</a>
+  </div>        
+</div>
+
+<div ng-show="showLoader" class="loader-ol h-100 w-100">
+  <div class="loader-in">
+    <div class="loader"></div><br/>
+    <h3 ng-show="progress">Please wait.. {{progress}}%</h3>
+  </div>
+</div>

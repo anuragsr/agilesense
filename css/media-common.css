@@ -1,0 +1,195 @@
+@media (max-width:1023px)  {	
+	/* big landscape tablets, laptops, and desktops */
+	.navbar{
+		padding: 1vw 2vw;
+	}
+	.navbar-brand img{
+	  height: 4.5vw;
+	}
+	.nav-ctn{
+		margin-top: 15px;
+		margin-left: 0;
+		padding-top: 15px;
+		height: unset;
+		border-top: 1px solid rgba(0,0,0,.3);
+	}
+	.nav-item{
+	  font-size: 2.5vw;
+	  padding: .5vw 0;
+	  margin-bottom: 1vw;
+	  display: block;
+	}
+	.nav-item:hover,.nav-item.active{
+		border: none;
+		margin: 0;
+	  margin-bottom: 1vw;		
+	}
+	.navbar-nav .dropdown-menu{
+		margin-top: 2vw;
+	}
+	a.dropdown-item{
+  	font-size: 2vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+	}
+	.ctn-main{
+		height: 35vw;
+	}
+	.ctn-main .container h1 {
+    font-size: 4.5vw;    
+	}
+	.ctn-main .container h3 {
+    font-size: 2vw;
+    margin-bottom: 4vw;    
+	}
+	button.btn-lg{
+		font-size: 1.75vw !important;
+	}
+	.bc-bg{
+		font-size: 2.75vw;
+	}
+	.bc-bg .container .bc-text{
+		font-size: 2vw;
+	}
+	.up{
+  	border-radius: 1vw;
+	  width: 7vw;
+  	height: 7vw;
+  	font-size: 4vw;
+	  right: 2.5vw;
+	  bottom: 2.5vw;
+	}
+	.s-cl{
+	  height: 40vw;
+	}
+	.s-cl h1{
+	  font-size: 4.5vw;
+	}
+	.s-cl h3{
+	  font-size: 2vw;
+	}
+	.s-cl .row-cl img{
+	  margin: 2vw;
+	  height: 6vw;
+	}
+	.ctn-footer img.logo-lg{
+	  height: 7.5vw;
+	  margin-bottom: 3vw;
+	}
+	.ctn-footer a{
+		font-size: 2vw;
+	}
+
+	.s-ctn{
+		min-height: 80vh;
+		padding-top: 10vw;		
+	}
+	.table-responsive{
+	  display: block;
+	}
+}
+
+@media (max-width:767px)  {	
+	/* smartphones, Android phones, landscape iPhone */
+	.no-mobile{
+	  display: none;
+	}
+	.no-desktop{
+	  display: block;
+	}
+	.navbar{
+		padding: 3vw 4vw;
+	}
+	.navbar-brand img{
+	  height: 9.5vw;
+	}
+	.nav-item{
+	  font-size: 4vw;
+	}
+	.ctn-main{
+		height: 60vw;
+	}
+	.container {
+    padding: 5vw 2vw;
+	}
+	.ctn-main .container{
+  	padding: 0 5vw;
+  	text-align: center;
+	}
+	.ctn-main .container h1 {
+    font-size: 6.5vw;    
+    margin-bottom: 2vw;
+	}
+	.ctn-main .container h3 {
+    font-size: 4vw;
+    width: 100%;
+    margin-bottom: 0;
+	}
+	button.btn-lg{
+		font-size: 4vw !important;
+	}
+	.navbar-nav .dropdown-menu{
+		padding: 0 2vw;
+	}
+	a.dropdown-item{
+  	font-size: 3.5vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+	}
+	.bc-bg{
+		font-size: 4.75vw;
+	}
+	.bc-bg .container{
+		padding: 2vw 3vw;
+	}
+	.bc-bg .container .bc-el {
+		margin: 0 1.5vw;
+	}
+	.bc-bg .container .bc-text{
+		font-size: 4vw;
+	}
+	.row{
+    margin-left: 0;
+    margin-right: 0;
+	}	
+	.up{
+  	border-radius: 2vw;
+	  width: 15vw;
+  	height: 15vw;
+  	font-size: 8vw;
+	  right: 2.5vw;
+	  bottom: 2.5vw;
+	}
+	.s-cl{
+	  height: unset;
+		padding-top: 8vw;	  
+	}
+	.s-cl .container{
+	  padding: 0 5vw;
+	}
+	.s-cl h1{
+	  font-size: 6.5vw;
+	}
+	.s-cl h3{
+	  font-size: 4vw;
+	  width: 100%;
+	}
+	.s-cl .row-cl img{
+		margin: 3vw;
+		height: 10vw;
+	}
+	.ctn-footer a{
+		font-size: 3vw;
+	}
+	.s-ctn{
+		min-height: 80vh;
+		padding-top: 15vw;		
+	}
+	.table thead th{
+		vertical-align: top;
+	}
+}
+
+@media (max-width:480px)  {	
+	/* smallest phone */
+}

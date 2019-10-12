@@ -1,0 +1,82 @@
+<div class="ctn-secondary">
+  <div class="bc-bg">
+    <div class="container p-0">
+      <div class="bc-el bc-hm">
+        <a href="../../"><i class="fa fa-home"></i></a>
+      </div>
+      <div class="bc-el"><i class="fa fa-caret-right"></i></div>
+      <div class="bc-el bc-text">
+        <a href="../../#services">  
+          Services
+        </a> 
+      </div>
+      <div class="bc-el"><i class="fa fa-caret-right"></i></div>
+      <div class="bc-el bc-text">
+        <a ui-sref="home">
+          Careers
+        </a>  
+      </div>
+      <div class="bc-el"><i class="fa fa-caret-right"></i></div>
+      <div class="bc-el bc-text">Job Details</div>
+    </div>
+  </div>
+</div>
+    
+<div class="container s-ctn s-jd">
+  <h1 class="text-center"><b>JOB DETAILS</b></h1>
+  <div class="row justify-content-center">
+    <div class="col-md-8">    
+      <div class="form-group row">
+        <div class="col-md-6">
+          <label>JOB CODE</label>
+          <input type="text" readonly ng-model="job.j_code" class="form-control-plaintext">
+        </div>
+        <div class="col-md-6">
+          <label>JOB TITLE</label>
+          <input type="text" readonly ng-model="job.j_title" class="form-control-plaintext">
+        </div>
+      </div>    
+      <div class="form-group row">
+        <div class="col-md-6">
+          <label>JOB LOCATION</label>
+          <input type="text" readonly ng-model="job.j_loc" class="form-control-plaintext">
+        </div>
+        <div class="col-md-6">
+          <label>JOB TYPE</label>
+          <input type="text" readonly ng-model="job.j_type" class="form-control-plaintext">
+        </div>
+      </div>
+      <div class="form-group row">
+        <div class="col-md-12">
+          <label>JOB DESCRIPTION</label>
+          <div>
+            <pre>{{job.j_desc}}</pre>
+          </div>
+        </div>
+      </div>
+      <div class="row">        
+        <div class="col-md-12 text-center">
+          <button ng-click="back()" class="btn btn-lg btn-block btn-dark">Back</button>
+        </div>
+      </div>
+    </div>
+  </div>  
+  <pre>{{opts | json}}</pre>
+
+</div>
+
+<div class="ctn-footer text-center">
+  <img src="../../img/logo-lg.png" class="logo-lg"/>
+  <div>
+    <a href="../../#contact">Contact Us</a>
+    <a href="../../about">About Us</a>
+    <a href="../../sitemap.html">Sitemap</a>
+  </div>        
+</div>
+
+<div ng-show="showLoader" class="loader-ol h-100 w-100">
+  <div class="loader-in">
+    <div class="loader"></div><br/>
+    <h3 ng-show="progress">Please wait.. {{progress}}%</h3>
+  </div>
+</div>

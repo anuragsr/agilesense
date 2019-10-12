@@ -1,0 +1,216 @@
+/* ABOUT PAGE CSS */
+.s-main{
+  background: url(../img/about-bg-2.png) no-repeat center;
+  background-size: cover;
+}
+
+.s-main h1{
+	margin-top: 4vw;
+}
+
+.s-about .row{
+	align-items: center;
+}
+
+.s-about .ctn-img1{
+  background: url(../img/about-2.jpg) no-repeat center;
+  background-size: cover;
+  height: 20vw;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 1px rgba(0,0,0,.4); 
+}
+
+.s-about h2{
+  font-size: 1.75vw;
+  color: #17acb3;  
+}
+
+.s-about h4{
+  font-size: 1vw;
+}
+
+.s-mv .row{
+	align-items: center;
+	margin-bottom: 4vw;
+}
+
+.s-mv h4{
+	font-weight: bold;
+  font-size: 1vw;
+}
+
+.s-mv .ctn-focus{	
+  color: #fff;
+  padding: 1.5vw 2vw;
+  background: #17acb3;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 1px rgba(0,0,0,.4);  
+}
+
+.s-mv .ctn-focus h2{
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+.s-mv .ctn-focus img{
+	height: 3vw;
+	margin-right: 1vw;
+}
+
+.s-dir{
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.s-dir h1{
+  font-size: 2.5vw;
+  margin-bottom: 0;
+}
+
+.s-dir h3{
+  margin: 1.5vw 0;
+  font-size: 1vw;
+}
+
+.s-dir .ctn-ser{
+	line-height: 1.5;
+	font-size: 1vw;
+  margin: .5vw;
+  width: 25vw;
+  text-align: left;
+  background: #fff;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,.2);
+}
+
+.s-dir .ctn-ser .dir-img{
+	height: 8vw;
+	width: 8vw;
+	border-radius: 4vw;
+	border: 10px solid #17acb3;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,.4);
+}
+
+.s-dir .ctn-ser .card-title{
+	font-weight: bold;
+	line-height: 1.5;
+	font-size: 1.5vw;
+}
+
+.s-dir .ctn-ser .card-subtitle{
+	line-height: 1.5;
+	font-size: 1vw;
+	color: #17acb3;
+	font-weight: bold;
+}
+
+.s-dir .ctn-ser p.section-title{
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+.s-dir .ctn-ser p.section-text a{
+  text-decoration: none;
+}
+
+.s-dir .ctn-ser p.section-text i{
+	cursor: pointer;
+	color: #17acb3;
+	margin-top: 1vw;	
+	margin-right: 1vw;
+	font-size: 1.25vw;
+}
+
+.s-why h1{
+  font-size: 2.5vw;
+  margin-bottom: 0;
+}
+
+.s-why h3{
+  margin: 1.5vw 0;
+  font-size: 1vw;
+}
+
+.s-why .row{
+	align-items: center;
+  font-size: 1vw;	
+}
+
+.s-why .ctn-img2{
+  background: url(../img/about-3.png) no-repeat center;
+  background-size: cover;
+  height: 18vw;
+  background-position: 100% 50%;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 1px rgba(0,0,0,.4); 
+}
+
+.s-testi h1{
+  font-size: 2.5vw;
+  margin-bottom: 0;
+}
+
+.s-testi h3{
+  margin: 1.5vw 0;
+  font-size: 1vw;
+}
+
+.s-testi .row-testi{
+	height: 18vw;
+  color: #fff;
+  background: #17acb3;
+  box-shadow: 0px 0px 10px 1px rgba(0,0,0,.4);  
+}
+
+.s-testi .row-testi .col-md-4{
+	position: relative;
+	overflow: hidden;
+}
+
+.s-testi .row-testi .testi-main{  
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.s-testi .row-testi-inner{
+	padding: 2vw 0;
+}
+
+.s-testi .row-testi h3{
+  font-weight: bold;
+}
+
+.s-testi .ctn-testi{  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.s-testi .ctn-testi h4{
+  font-size: 1vw;
+  font-weight: bold;
+}
+
+.s-testi .ctn-testi h5{
+  font-size: 1.1vw;
+}
+
+.s-testi .ctn-testi img{
+  height: 2vw;
+}
+
+.s-testi .carousel-control-prev-icon,
+.s-testi .carousel-control-next-icon{
+ height: 2vw;
+ width: 2vw;
+}
+
+.s-testi .ctn-testi-inner{
+	width: 75%;
+	margin: 0 auto;
+}
