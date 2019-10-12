@@ -273,7 +273,8 @@
 }
 
 .s-contact .ctn-contact-item img{
-  height: 3.25vw;
+  /* height: 3.25vw; */
+  height: 1.15vw;
 }
 
 /* Sitemap */

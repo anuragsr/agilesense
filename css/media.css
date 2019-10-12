@@ -205,7 +205,8 @@
     margin-right: 5vw;
 	}
 	.s-contact .ctn-contact-item img{
-		height: 11vw;
+		/* height: 11vw; */
+		height: 4vw;
 	}
 	.s-contact .col-contact button{
 		margin-top: 5vw;
