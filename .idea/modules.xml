@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/agilesense.iml" filepath="$PROJECT_DIR$/.idea/agilesense.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../ME(AVR)N/agilesense-training-module/.idea/agilesense-training-module.iml" filepath="$PROJECT_DIR$/../../ME(AVR)N/agilesense-training-module/.idea/agilesense-training-module.iml" />
-    </modules>
-  </component>
-</project>
