@@ -2,12 +2,12 @@
 <html lang="en" class="h-100 w-100">
   <?php
     $title = "Agile Sense | Corporate Portfolio";
-    $path = $_SERVER['DOCUMENT_ROOT']."/agilesense/common/";
-    include $path."header.php";
+    include_once "common/config.php";
+    include ROOT."header.php";
   ?>
   
   <body class="h-100 w-100">
-    <?php include $path."nav.php"?>
+    <?php include ROOT."nav.php"?>
     
     <main id="home">
         <div class="ctn-main s-main">
@@ -323,7 +323,7 @@
           </div>
         </div>
     
-        <?php include $path."footer.php"?>
+        <?php include ROOT."footer.php"?>
     </main>
     
   </body>

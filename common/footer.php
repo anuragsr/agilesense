@@ -11,7 +11,7 @@
 <script src="js/jquery.easing.min.js"></script>
 <script src="js/jquery.validate.min.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
-<script async defer src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDWC92xmNi_oJz1oIZSKqfmBMIdNcAHoSY&callback=initMap"></script>
-<script async defer src='http://www.google.com/recaptcha/api.js'></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDWC92xmNi_oJz1oIZSKqfmBMIdNcAHoSY&callback=initMap"></script>
+<script async defer src='https://www.google.com/recaptcha/api.js'></script>
 <script src="js/script.js"></script>
 <script src="js/getscheduledtrainings.js"></script>

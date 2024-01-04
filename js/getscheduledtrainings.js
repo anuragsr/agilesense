@@ -91,14 +91,20 @@ const transformScheduledTrainings = (data) => {
   },
   createMenuItem = (trainings) => {
     // l(trainings, $("#trainings-dropdown"));
-    trainings.forEach((training) => {
-      $("<a>", {
-        text: training.trainingName,
-        class: "dropdown-item",
-        href: "detail/?training=" + training.slug,
-        target: "_blank",
+    if (!trainings.length) {
+      $("<span>", {
+        text: "No trainings",
       }).appendTo("#trainings-dropdown");
-    });
+    } else {
+      trainings.forEach((training) => {
+        $("<a>", {
+          text: training.trainingName,
+          class: "dropdown-item",
+          href: "training/detail/?training=" + training.slug,
+          target: "_blank",
+        }).appendTo("#trainings-dropdown");
+      });
+    }
   };
 
 try {
