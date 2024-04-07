@@ -4,8 +4,9 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="Description" content="We provide Agile services to a number of large organisations with a holistic Agile transformation approach. Our proven Agile transformation and delivery framework are based on internationally accepted industry standards and practices. Discover our proven Agile transformation and delivery framework based on a prudent, practical approach embracing the specific constraints of your business environment.">
   <meta name="Keywords" content="Agile, Sense, Agile Sense, Scrum, Scrum Master, South Africa, Agile Jobs, Agile Training, Agile Certification, Agile Placement, Delivery">
-  <base href="/">
+  <!--<base href="/">-->
   <!--<base href="/agilesense/">-->
+  <base href="/projects/agilesense/">
   <!--<base href="/staging/">-->
   <link rel="icon" type="image/x-icon" href="img/icon.png" />
   

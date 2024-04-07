@@ -25,7 +25,7 @@
             <h3>Learn more about the various <b>possibilities</b> we offer for the <b>betterment</b> of your work environment through <b>Agile</b></h3>
           </div>
         </div>
-    
+        
         <div class="container s-about">
           <div class="row">
             <div class="col-md-5">
@@ -53,7 +53,7 @@
             </div>
           </div>
         </div>
-    
+        
         <div class="container s-mv">
           <div class="row">
             <div class="col-md-6 text-right">
@@ -110,11 +110,11 @@
             </div>
           </div>
         </div>
-    
+        
         <div class="container px-0">
           <img class="s-img-1" src="img/mv-4.png" />
         </div>
-    
+        
         <div class="container s-dir text-center">
           <h1><b>FOUNDING DIRECTORS</b></h1>
           <h3>
@@ -241,7 +241,7 @@
             </div> -->
           </div>
         </div>
-    
+        
         <div class="container s-why text-center">
           <h1><b>WHY CHOOSE US?</b></h1>
           <h3>
@@ -267,7 +267,7 @@
             </div>
           </div>
         </div>
-    
+        
         <div class="s-cl">
           <div class="container">
             <h1><b>OUR CLIENTS</b></h1>
@@ -284,7 +284,7 @@
             </div>
           </div>
         </div>
-    
+        
         <div class="container s-testi text-center">
           <h1><b>CLIENT TESTIMONIALS</b></h1>
           <h3>

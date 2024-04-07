@@ -110,6 +110,7 @@ const transformScheduledTrainings = (data) => {
 try {
   const url =
       "https://www.agilesense.co.za/training/be/api/v1/scheduledtrainings",
+    // "https://envisagecyberart.in/projects/agilesense/training/be/api/v1/scheduledtrainings",
     headerDefaults = {
       Accept: "application/json",
       "Content-Type": "application/json",
