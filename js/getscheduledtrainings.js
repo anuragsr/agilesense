@@ -100,7 +100,7 @@ const transformScheduledTrainings = (data) => {
         $("<a>", {
           text: training.trainingName,
           class: "dropdown-item",
-          href: "training/detail/?training=" + training.slug,
+          href: "https://www.agilesense.co.za/training/detail/?training=" + training.slug,
           target: "_blank",
         }).appendTo("#trainings-dropdown");
       });
