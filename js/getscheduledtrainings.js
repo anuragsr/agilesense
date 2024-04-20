@@ -115,7 +115,7 @@ try {
       Accept: "application/json",
       "Content-Type": "application/json",
     },
-    READ_TOKEN = "j32AhzHzkpK5Cy7KrxDbdCWCK8D0fIqva4Ae5X3s6fb28be6";
+    READ_TOKEN = "PhnrbkAneEp8ATYyMHz5D2jtXSDHRKAsvsJN4Sh805aa9e2f";
 
   fetch(url, {
     headers: {
